@@ -212,3 +212,21 @@
 ![Git Workflow 2](./images/02-git-workflow.png "Git Workflow 2")
 
 ![Git Workflow 3](./images/03-git-workflow.png "Git Workflow 3")
+
+
+
+-----------------
+
+### Kaynaklar
+- https://www.atlassian.com/git/tutorials
+- https://www.youtube.com/playlist?list=PLkEZWD8wbltmcZQaA0ism9k2E6MGRnHZ7
+- https://www.youtube.com/watch?v=mYjZtU1-u9Y&list=PL1F56EA413018EEE1
+- https://www.youtube.com/watch?v=jLWZaFzPS6Q
+- https://www.youtube.com/watch?v=oFYyTZwMyAg
+- https://www.youtube.com/watch?v=BF2OHMM86Ik
+- https://www.youtube.com/watch?v=k5D37W6h56o
+- https://www.youtube.com/watch?v=jhtbhSpV5YA
+- https://www.youtube.com/watch?v=vIp3Uz4DG2c
+- https://www.youtube.com/watch?v=1SXpE08hvGs
+- https://www.youtube.com/watch?v=aJnFGMclhU8
+- https://www.youtube.com/watch?v=ww4xpcvzLHc
