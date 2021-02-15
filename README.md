@@ -1,3 +1,31 @@
+# Konular
+
+- [Versiyon Nedir?](#1-versiyon-nedir)
+- [Versiyon Nasıl Kontrol Edilir?](#2-versiyon-nasıl-kontrol-edilir)
+- [Versiyonları Kontrol Etmeye Neden İhtiyacımız Var?](#3-versiyonları-kontrol-etmeye-neden-i̇htiyacımız-var)
+- [Init](#init)
+- [Config](#config)
+- [Status](#status)
+- [Add](#add)
+- [Restore](#restore)
+- [Gitignore](#gitignore)
+- [Commit](#commit)
+- [Tag](#tag)
+- [Log](#log)
+- [Reset](#reset)
+- [Revert](#revert)
+- [Branch](#branch)
+- [Checkout ve Switch](#checkout-ve-switch)
+- [Diff](#diff)
+- [Merge](#merge)
+- [Rebase](#rebase)
+- [Remote](#remote)
+- [Clone](#clone)
+- [Pull](#pull)
+- [Push](#push)
+- [Git Workflow](#git-workflow)
+- [Kaynakça](#kaynakça)
+
 # [Versiyon Kontrolü](https://biproberkay.gitbook.io/versiyon-kontrolue-egitimi/ "# Versiyon Kontrolü")
 
 ​​
@@ -27,7 +55,7 @@ Böylelikle proje klasörünüzün bir sürü kopya klasörü olacaktır. Zamanl
 
 ## 3. Versiyonları Kontrol Etmeye Neden İhtiyacımız Var?
 ### 1. Kitap Baskıları Örneği
- Yayınevleri kitapları baskı adı verilen sürümler yani versiyonlar halinde matbaadan çıkarır ve müşterilerine sunulmak üzere mağazalara gönderir. aldığınız kitapların hepsinde baskı numarası ve tarihi olur. En çok baskıya ulaşan yazarlar bununla övünürler.
+Yayınevleri kitapları baskı adı verilen sürümler yani versiyonlar halinde matbaadan çıkarır ve müşterilerine sunulmak üzere mağazalara gönderir. aldığınız kitapların hepsinde baskı numarası ve tarihi olur. En çok baskıya ulaşan yazarlar bununla övünürler.
 
 ### 2. Projelerinizde kopyalar oluşturma ihtiyacınız oluyor mu?
 ![Kopya Klasörler](./images/kk.png "kopya_klasor")
@@ -74,13 +102,8 @@ Branch özelliği size bir projede farklı karar alternatiflerini deneme olanağ
 
 Bize tanıdık gelenler neler bir bakalım!
 
+-----------------
 
-## Kaynakça
-Bibliography
-
-Özgür, Ali. n.d. Git ile Versiyon Kontrolü. N.p.: Dikey Eksen. https://www.dikeyeksen.com/products/git-ile-versiyon-kontrolu
-
-Özgür, Ali. n.d. “Türkçe Git 101.” gitbook. https://aliozgur.gitbooks.io/git101/content/.``
 # Git Komutları
 
 ### Init
@@ -300,7 +323,7 @@ Bibliography
 
 -----------------
 
-### Kaynaklar
+### Kaynakça
 - https://www.atlassian.com/git/tutorials
 - https://www.youtube.com/playlist?list=PLkEZWD8wbltmcZQaA0ism9k2E6MGRnHZ7
 - https://www.youtube.com/watch?v=mYjZtU1-u9Y&list=PL1F56EA413018EEE1
@@ -313,3 +336,7 @@ Bibliography
 - https://www.youtube.com/watch?v=1SXpE08hvGs
 - https://www.youtube.com/watch?v=aJnFGMclhU8
 - https://www.youtube.com/watch?v=ww4xpcvzLHc
+- Özgür, Ali. n.d. Git ile Versiyon Kontrolü. N.p.: Dikey Eksen. https://www.dikeyeksen.com/products/git-ile-versiyon-kontrolu
+- Özgür, Ali. n.d. “Türkçe Git 101.” gitbook. https://aliozgur.gitbooks.io/git101/content/.``
+
+
