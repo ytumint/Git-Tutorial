@@ -4,14 +4,14 @@
 - [Versiyon Nasıl Kontrol Edilir?](#2-versiyon-nasıl-kontrol-edilir)
 - [Versiyonları Kontrol Etmeye Neden İhtiyacımız Var?](#3-versiyonları-kontrol-etmeye-neden-i̇htiyacımız-var)
 - [Init](#init)
-- [Config](#config)
 - [Status](#status)
 - [Add](#add)
 - [Restore](#restore)
 - [Gitignore](#gitignore)
+- [Config](#config)
 - [Commit](#commit)
-- [Tag](#tag)
 - [Log](#log)
+- [Tag](#tag)
 - [Reset](#reset)
 - [Revert](#revert)
 - [Branch](#branch)
@@ -110,15 +110,7 @@ Bize tanıdık gelenler neler bir bakalım!
 *git init* komutu git yapılandırmasını dahil eder.
 ### Kullanım
     $ git init
-    $ git init -b <branch-name>
------------------
-
-### Config
-*git config* komutu git ile alakalı yapılandırmaları belirlemek için kullanılır.
-### Kullanım
-    $ git config --global user.name "ad soyad"
-    $ git config --global user.email "ornek@mail.com"
-    $ git config --list
+    
 -----------------
 
 ### Status
@@ -126,7 +118,7 @@ Bize tanıdık gelenler neler bir bakalım!
 ### Kullanım
     $ git status
     $ git status -s
-    $ git branch -b
+
 -----------------
 
 ### Add
@@ -138,13 +130,15 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git add .
     $ git add <file-name>
     $ git add <file-path>
-    $ git restore --staged <file-name>
+    
 -----------------
 
 ### Restore
 *git restore* komutu değişiklik yaptığımız dosyanın değişikliklerini geri almak için kullanılır.
 ### Kullanım
     $ git restore <file-name>
+    $ git restore --staged <file-name>
+
 -----------------
 
 ### Gitignore
@@ -153,6 +147,16 @@ Bize tanıdık gelenler neler bir bakalım!
     $ touch .gitignore
     $ nano .gitignore
     $ git status
+
+-----------------
+
+### Config
+*git config* komutu git ile alakalı yapılandırmaları belirlemek için kullanılır.
+### Kullanım
+    $ git config --global user.name "ad soyad"
+    $ git config --global user.email "ornek@mail.com"
+    $ git config --list
+
 -----------------
 
 ### Commit
@@ -166,6 +170,16 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git commit --amend -m 'edited commit message'
 
 -----------------
+
+### Log
+*git log* komutu yapmış olduğumuz commit'leri listeler.
+### Kullanım
+    $ git log
+    $ git log --oneline --all --decorate --graph
+    $ git config --global alias.lo 'log --all --graph --decorate --oneline'
+
+-----------------
+
 ### Tag
 *git tag* komutu belirlediğimiz bir commit'i işaret eden referanslardır. 
 
@@ -175,17 +189,6 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git tag -a -m --list --delete -lw
     $ git tag <tag-name> 
     $ git show <tag-name>
------------------
-
-### Log
-*git log* komutu yapmış olduğumuz commit'leri listeler.
-### Kullanım
-    $ git log
-    $ git log --oneline
-    $ git log -all
-    $ git log --decorate
-    $ git log --graph
-    $ git config --global alias.lo 'log --all --graph --decorate --oneline'
 
 -----------------
 
@@ -200,6 +203,7 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git reset --hard HEAD~3
     $ git reflog
     $ git reset -i HEAD~4
+
 -----------------
 
 ### Revert
@@ -273,6 +277,7 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git rebase <branch-name>
 
 -----------------
+
 ### Remote
 *git remote* yerel depo ile takip edilen uzak depoyu kontrol edebilmeyi sağlar.
 
@@ -282,9 +287,10 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git remove -v 
     $ git remote add <remote-name> <remote-url>
     $ git remote remove <remote-name>
-    $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git.
+    $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 
 -----------------
+
 ### Clone
 *git clone* Github'da varolan bir depoyu tüm dosyalar, dallar dahil olmak üzere klonlar(indirir).
 ### Kullanım
