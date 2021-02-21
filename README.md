@@ -204,7 +204,6 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git reset --soft HEAD~1
     $ git reset --hard HEAD~3
     $ git reflog
-    $ git reset -i HEAD~4
 
 -----------------
 
