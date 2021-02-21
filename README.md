@@ -197,6 +197,8 @@ Bize tanıdık gelenler neler bir bakalım!
 
 ![reset image](./images/01-reset.png "reset")
 
+![reset image](./images/02-reset.jpg "reset")
+
 ### Kullanım 
     $ git reset <commit-hash>
     $ git reset --soft HEAD~1
