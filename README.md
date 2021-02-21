@@ -186,9 +186,11 @@ Bize tanıdık gelenler neler bir bakalım!
 ![Git Tag Image](./images/01-tag.png "Git Tag Image")
 
 ### Kullanım
-    $ git tag -a -m --list --delete -lw
+    $ git tag --list
     $ git tag <tag-name> 
+    $ git tag <tag-name> -m 'tag message'
     $ git show <tag-name>
+    $ git tag --delete <tag-name>
 
 -----------------
 
