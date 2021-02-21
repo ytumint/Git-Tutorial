@@ -188,6 +188,7 @@ Bize tanıdık gelenler neler bir bakalım!
 ### Kullanım
     $ git tag --list
     $ git tag <tag-name> 
+    $ git tag <tag-name> <commit-hash>
     $ git tag <tag-name> -m 'tag message'
     $ git show <tag-name>
     $ git tag --delete <tag-name>
