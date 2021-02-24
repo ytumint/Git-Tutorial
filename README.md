@@ -290,7 +290,7 @@ Bize tanıdık gelenler neler bir bakalım!
 ![Remote image 1](./images/01-remote.png "Remote image 1")
 
 ### Kullanım
-    $ git remove -v 
+    $ git remote -v 
     $ git remote add <remote-name> <remote-url>
     $ git remote remove <remote-name>
     $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
