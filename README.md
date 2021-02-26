@@ -171,7 +171,9 @@ Bize tanıdık gelenler neler bir bakalım!
 
 ![commit image](./images/01-commit.png "git commit workflow")
 
-![commit image](./images/02-commit.png "git commit workflow")
+![commit image](./images/02-commit.png "git commit")
+
+![commit image](./images/03-commit.png "git commit")
 
 ### Kullanım
     $ git commit -m 'this is commit message'
