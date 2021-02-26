@@ -26,11 +26,10 @@
 - [Git Workflow](#git-workflow)
 - [Kaynakça](#kaynakça)
 
-# [Versiyon Kontrolü](https://biproberkay.gitbook.io/versiyon-kontrolue-egitimi/ "# Versiyon Kontrolü")
-
-​​
 ![versiyon](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Revision_controlled_project_visualization-2010-24-02.svg/313px-Revision_controlled_project_visualization-2010-24-02.svg.png "versiyon")
+
 ## 1. Versiyon Nedir?
+
 “İster kıdemli bir yazılım geliştirici olun isterseniz yazılım geliştirme işine yeni başlayan bir profesyonel; iş görüşmelerinde
 
 temel bilgisayar bilimleri,
@@ -43,8 +42,9 @@ ile ilgili sorulardan sonra ilk 5 soru içinde yer alacak konulardan birisi de G
 
 “Dosyaların kayıt altına alınmış herhangi bir andaki hallerine versiyon diyoruz” (Özgür, n.d.)
 
-​
+
 ## 2. Versiyon Nasıl Kontrol Edilir?
+
 Projelerinizde çalışmalarınız kayda değer seviyede gelişme gösterdiği anda bu başarınızı kayıt etmek yani saklamak istersiniz. Çalışma alanınıza geçtiğiniz her bir zaman diliminde, emeklerinizin meyvesi olan, dosyalarınızı veya materyallerinizi bir sonraki çalışmanıza kadar güvende kalacak şekilde kaydedersiniz.
 
 Kopya oluşturma yöntemi. İlk akla gelen yöntem sanırım dosyalarınızın bir kopyasını oluşturup yedeklemek olur. Bunu ara ara yaparak yedeklerinizin de güncel kalmasını sağlarsınız. Ne zaman yedekleme yapacağınıza da sanırım önemli bir aşamaya geldiğinizi düşündüğünüz anda karar verirsiniz.
@@ -54,20 +54,23 @@ Kopya oluşturma yöntemi. İlk akla gelen yöntem sanırım dosyalarınızın b
 Böylelikle proje klasörünüzün bir sürü kopya klasörü olacaktır. Zamanla bu klasörleri yönetmenin zorluğunu çekmeye başlayacaksınız. Neyse ki Bilgisayar bilimine gönül vermiş bilim adamları ve yazılım geliştiricileri ile paraya gönül vermiş birtakım yazılım ve bilişim şirketleri bizim için versiyonlarımızı kontrol edebileceğimiz yazılımlar geliştirmişlerdir.
 
 ## 3. Versiyonları Kontrol Etmeye Neden İhtiyacımız Var?
+
 ### 1. Kitap Baskıları Örneği
+
 Yayınevleri kitapları baskı adı verilen sürümler yani versiyonlar halinde matbaadan çıkarır ve müşterilerine sunulmak üzere mağazalara gönderir. aldığınız kitapların hepsinde baskı numarası ve tarihi olur. En çok baskıya ulaşan yazarlar bununla övünürler.
 
 ### 2. Projelerinizde kopyalar oluşturma ihtiyacınız oluyor mu?
-![Kopya Klasörler](./images/kk.png "kopya_klasor")
+
+![Kopya Klasörler](https://gblobscdn.gitbook.com/assets%2Fversiyon-kontrolue-egitimi%2F-MTRHdJKNtmHNJPFOJN1%2F-MTRHlH7qPFr3XzQ7yx7%2F1.png?alt=media)
 yukarıdaki örnekte olduğu gibi; eğer siz de projelerinizi kopya klasörlerle versiyonlama işlemine tabi tutuyorsanız. Versiyon kontrol yazılımları size ihtiyacınız olan çözümleri sunan gayet işlevsel bir araç olacaktır.
 
-
-![Kopya Klasörler](./images/kk2.png "kopya_klasor_2")
+![Kopya Klasörler](https://gblobscdn.gitbook.com/assets%2Fversiyon-kontrolue-egitimi%2F-MTRHdJKNtmHNJPFOJN1%2F-MTRHlH8SBHVftL94mFD%2F2.png?alt=media "kopya_klasor_2")
 versiyonları belirli aralıklarla kaydetme örneği
 
 Teknolojinin tanımını gelin beraber yeniden yapalım. İnsan emeği ile yapılan manuel işlemleri düşünün. Genellikle bir döngü oluştururlar. Bu durumu gören akıllı kişiler olur. Kimi zaman mucit, kimi zaman bilim adamı, kimi zaman da girişimci, olarak adlandırabiliriz bu kişileri. İnsan emeği değerlidir ama nispeten daha yavaştır.Makine emeği ise insan emeğine göre çok daha hızlıdır. Akıllı kişilerin makine emeğini kullanmak için makinelere yapacağı işlerin talimatlarının sıralandığı bir bilgi taşıyan dosyalara yazılım diyoruz. Böylelikle manuel olan işlerinizi sizin için otomatize ederek daha fazla verim alabiliyorsunuz. İşte buna teknoloji denir. Versiyonlama teknolojisi ise sizi “kopyala-yapıştır”lardan kurtaran harika bir teknolojidir.
 
 ### 3. Versiyonların düzgün bir şekilde takip edilebilmesi
+
 Üzerinde çalıştığınız bir dosyanın veya bir dizi proje dosyasının zaman içinde farklı versiyonları oluşur ve bu versiyonların kayıt altına alınması gerekir. Bu sorumluluk genelde çok zahmetli ve sıkıcı bir iş ve süreçtir. Aşağıdakine benzer sorular canınızı gereğinden fazla sıkabilir
 
 Sadece değişen dosyalar mı yoksa bir projedeki tüm dosyaların versiyonları mı kaydedilmeli?
@@ -91,16 +94,20 @@ Belki de canınızı en çok sıkacak şey projenizin iki versiyonu arasında ta
 Versiyon kontrol sistemi kullandığınızda sizin çalıştığınız disk alanında proje dosyalarının sadece bir versiyonu bulunur, bu dosyaların daha önceki halleri versiyon kontrol sisteminin denetimindedir. Bu sayede istediğiniz zaman önceki versiyonlara geri dönebilir, versiyonlar arasındaki farklılıkları rahatlıkla inceleyebilir ve versiyonları kaydederken eklediğiniz ilave bilgileri ve yorumlarınızı rahatlıkla görebilirsiniz. (Özgür, n.d.,)
 
 ### 4. Geri dönme
+
 Dosyalarınızın veya aslında tüm projenizin daha önceki versiyonuna geri dönebilme imkanın size ciddi anlamda özgürlük sağlar; dosyalarınızı ve projenizi istediğiniz gibi değiştirme özgürlüğü. Yaptığınız değişiklikler projenizi çöpe döndürdüyse, geliştirdiğiniz bir işlev tam istediğiniz gibi olmadıysa veya müşteriniz veya patronunuz geliştirdiğiniz bir işlevi artık istemediğine karar verirse projenizin önceki temiz haline çok hızlı ve rahat bir şekilde dönebilirsiniz.
 
 ### 5. Farklı yaklaşımlar deneme
+
 Branch özelliği size bir projede farklı karar alternatiflerini deneme olanağı tanır. Böylelikle verdiğiniz kararların hiçbiri geri dönülemez kararlar olmaz.
 
-​
-4. Versiyon Kontrol Sistemleri neler?
-​([2])
+
+4. Versiyon Kontrol Sistemleri neler bir bakalım?
+   ![wikipedia](https://gblobscdn.gitbook.com/assets%2Fversiyon-kontrolue-egitimi%2F-MTRHdJKNtmHNJPFOJN1%2F-MTRHlH9yB-HxjiZMqcK%2F3.png?alt=media)
 
 Bize tanıdık gelenler neler bir bakalım!
+
+![vcs-git](https://gblobscdn.gitbook.com/assets%2Fversiyon-kontrolue-egitimi%2F-MTRHdJKNtmHNJPFOJN1%2F-MTRHlHAeZV0tkMrqpBK%2F4.png?alt=media)
 
 -----------------
 
