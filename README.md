@@ -11,11 +11,11 @@
 - [Config](#config)
 - [Commit](#commit)
 - [Log](#log)
-- [Tag](#tag)
 - [Reset](#reset)
 - [Revert](#revert)
 - [Branch](#branch)
 - [Checkout ve Switch](#checkout-ve-switch)
+- [Tag](#tag)
 - [Diff](#diff)
 - [Merge](#merge)
 - [Rebase](#rebase)
@@ -191,21 +191,6 @@ Bize tanıdık gelenler neler bir bakalım!
 
 -----------------
 
-### Tag
-*git tag* komutu belirlediğimiz bir commit'i işaret eden referanslardır. 
-
-![Git Tag Image](./images/01-tag.png "Git Tag Image")
-
-### Kullanım
-    $ git tag --list
-    $ git tag <tag-name> 
-    $ git tag <tag-name> <commit-hash>
-    $ git tag <tag-name> -m 'tag message'
-    $ git show <tag-name>
-    $ git tag --delete <tag-name>
-
------------------
-
 ### Reset
 *git reset* komutu bulunduğumuz branch ile ilerideki veya gerideki bir commit'e gitmeyi sağlar.
 
@@ -256,6 +241,21 @@ Bize tanıdık gelenler neler bir bakalım!
     $ git checkout <commit-hash>
     $ git checkout <branch-name>
     $ git switch <branch-name>
+
+-----------------
+
+### Tag
+*git tag* komutu belirlediğimiz bir commit'i işaret eden referanslardır. 
+
+![Git Tag Image](./images/01-tag.png "Git Tag Image")
+
+### Kullanım
+    $ git tag --list
+    $ git tag <tag-name> 
+    $ git tag <tag-name> <commit-hash>
+    $ git tag <tag-name> -m 'tag message'
+    $ git show <tag-name>
+    $ git tag --delete <tag-name>
 
 -----------------
 
