@@ -318,7 +318,6 @@ Bize tanıdık gelenler neler bir bakalım!
 ### Kullanım
     $ git pull
     $ git pull --rebase
-    $ git pull --force
     $ git pull --all
 
 -----------------
